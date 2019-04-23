@@ -7,7 +7,7 @@ if [ ! "$(command -v unzip)" ]; then
 fi
 
 _fetch_sources(){
-  wget -O /tmp/nanorc.zip https://github.com/DesertPunk/nanorc/archive/master.zip
+  wget -O /tmp/nanorc.zip https://github.com/DesertPunk/nanorc/archive/Test-branch.zip
   if [ ! -d ~/.nano/ ]
   then
     mkdir ~/.nano/
